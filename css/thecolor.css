@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigbox {
+    width: 500px;
+    height: 500px;
+    border: none;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.smallCell {
+    border: 1px solid black;
+    float: left;
+}
+
+.timer{
+    position: absolute;
+    top:100px;
+    left: 50%;
+    margin-left: 260px;
+}
+.score{
+    position: absolute;
+    top:100px;
+    left: 50%;
+    margin-left: -280px;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    display: none;
+}
+
+.wrap span{
+    color: #fff;
+    font-size: 24px;
+}
+i{
+    font-style: normal;
+}
+.wrap .xxx{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.wrap input{
+    text-align: center;
+    border-radius: 5px;
+    color:#fff;
+    border: 1px solid transparent;
+    outline: none;
+    margin: 5px auto;
+    width: 100px;
+}
+
+.ranking{
+    background: hsla(184, 100%, 33%, 0.7)
+}
+.restart{
+    height: 30px;
+    line-height:30px;
+    font-size: 18px;
+    background: hsla(98, 100%, 33%, 0.77)
+}
+#name{
+    width: 98px;
+    height: 19px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 12px;
+}
+.result{
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+
+/* -------------------ranking部分---------------------*/
+
+.rankingbox{
+    width: 300px;
+    height: 500px;
+    background-color: #eee;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+table{
+    width: 300px;
+}
+.caption {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #d8c173;
+    border-radius: 15px 15px 5px 5px;
+}
+table thead td {
+   font-size: 18px;
+   font-weight: 700;
+   background-color:#a7d1e9;
+   border-radius: 5px;
+}
+table tr {
+    height: 20px;
+}
+
+.backToGame{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px;
+    background-color: hsla(98, 100%, 33%, 0.77);
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
